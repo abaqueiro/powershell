@@ -30,7 +30,7 @@ param (
     [string]
     $name
 )
-write-host "hola $name" -nonewline # comment until end of line
+write-host "hola $name" -nonewline # comment until end of line, look PS replaces variable value in the string
 <#
     comment block
     come in this flavor
